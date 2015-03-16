@@ -1,12 +1,12 @@
 #Projeto de DW
 
 ##Descrição
-O objetivo do projeto consiste em desenvolver um site web de gerenciamento e monitoramento de redes para por em prática os conhecimentos teóricos vistos em sala de aula. As páginas devem possuir usabilidade e bom visual. Quanto ao tema do site é livre e as atividades devem ser em dupla.
+O objetivo do projeto consiste em desenvolver um site web de **gerenciamento e monitoramento de redes** para por em prática os conhecimentos teóricos vistos em sala de aula. As páginas devem possuir usabilidade e bom visual. Quanto ao tema do site é livre e as atividades devem ser em dupla.
 
 ##Requisitos
 O site deve conter obrigatoriamente:
 	
-* Especificação do Projeto: deve contar o nome do projeto, com os integrantes e uma listagem de funcionalidades da aplicação;
+* Especificação do Projeto: deve contar o nome do projeto, com os integrantes e uma listagem de funcionalidades da aplicação (30/03);
 * HTML: lista, tabela e formulário; 
 * CSS:;
 * JS:;
