@@ -14,13 +14,13 @@ Esta disciplina tem como objetivo apresentar as tecnologias necessárias para co
 * Manuais do MySQL. Disponíveis em http://www.mysql.com
 
 ##Comunicação
-Toda a comunicação será realizada neste [grupo](https://groups.google.com/forum/#!forum/dw-20142) do google.
+Toda a comunicação será realizada neste [grupo](https://groups.google.com/forum/#!forum/dw-20151) do google.
 
 ##Avaliações
 ###Provas Prática
-* Avaliação 01 (02/06): HTML e CSS.
+* Avaliação 01: HTML e CSS.
 * Avaliação 02: JS.
-* Avaliação 03: PHP e BD.
+* Avaliação 03: PHP.
 
 ###Trabalho
 * Projeto: [A especificação do projeto]().
