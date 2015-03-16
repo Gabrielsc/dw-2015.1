@@ -6,7 +6,7 @@ O objetivo do projeto consiste em desenvolver um site web de **gerenciamento e m
 ##Requisitos
 O site deve conter obrigatoriamente:
 	
-* Especificação do Projeto: deve contar o nome do projeto, com os integrantes e uma listagem de funcionalidades da aplicação;
+* Especificação do Projeto: deve contar o nome do projeto, com os integrantes e uma listagem de funcionalidades da aplicação (30/03);
 * HTML: lista, tabela e formulário; 
 * CSS:;
 * JS:;
