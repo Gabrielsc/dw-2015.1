@@ -23,7 +23,7 @@ Toda a comunicação será realizada neste [grupo](https://groups.google.com/for
 * Avaliação 03: PHP.
 
 ###Trabalho
-* Projeto: [A especificação do projeto]().
+* Projeto: [A especificação do projeto](assessment/projeto.md).
 
 A nota final será computado através da média aritmética das avaliações, removendo a menor nota das avaliações.
 
