@@ -13,6 +13,36 @@
 			<label for="password">Senha:</label>
 			<input id="password" type="password" name="password">
 		</fieldset>
+		<fieldset>
+			<legend>Dados Pessoais</legend>
+			Sexo:
+			<input type="radio" name="sexo" id="masculino" value="m" checked>
+			<label for="masculino">Masculino</label>
+			<input type="radio" name="sexo" id="feminino" value="f">
+			<label for="feminino">Feminino</label>
+			<br>
+			<label for="city">Cidade:</label>
+			<select name="city" id="city">
+				<option value=""></option>
+				<optgroup label="litoral">
+					<option value="JP" selected>João Pessoa</option>
+					<option value="BA">Bayeux</option>
+				</optgroup>
+				<optgroup label="interior">
+					<option value="CG">Campina Grande</option>
+				</optgroup>
+			</select>
+			<br>
+			Habilitação:
+			<input type="checkbox" name="habilitacao" id="a" value="a">
+			<label for="a">A</label>
+			<input type="checkbox" name="habilitacao" id="b" value="b">
+			<label for="b">B</label>
+			<input type="checkbox" name="habilitacao" id="c" value="c">
+			<label for="c">C</label>
+			<input type="checkbox" name="habilitacao" id="d" value="d">
+			<label for="d">D</label>
+		</fieldset>
 		<input type="submit" value="Logar">
 	</form>
 </body>
