@@ -68,6 +68,79 @@ A nota final será computado através da média aritmética das avaliações, re
   * http://devdocs.io/html/
 
 ##CSS
+
+* Conteúdo
+  * Tutoriais: 
+    * [Web Platform CSS Portal](http://docs.webplatform.org/wiki/css)
+    * [Web Palatorm CSS Guide](http://docs.webplatform.org/wiki/css/tutorials)
+    * [MDN CSS Portal](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    * MDN CSS Guide [1](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started) e [2](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS)
+    * [W3C Guide](http://www.w3.org/community/webed/wiki/CSS/Training)
+    * http://www.csszengarden.com/
+  * User style sheet
+    * [Stylish](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en)
+    * http://userstyles.org/
+  * Herança e Cascata
+    * http://docs.webplatform.org/wiki/tutorials/inheritance_and_cascade
+  * Bases e Geradores de Background
+    * Background
+      * http://subtlepatterns.com/
+      * http://www.backgroundlabs.com/
+      * http://bg.siteorigin.com/
+      * http://mudcu.be/bg/
+      * http://all-free-download.com/free-vector/free-professional-website-background.html
+    * Strip
+      * http://www.stripegenerator.com/
+      * http://www.stripemania.com/
+    * Textura e padrões
+      * http://www.grsites.com/archive/textures/
+      * http://bgpatterns.com/
+      * http://www.cgtextures.com/
+    * CSS3
+      * http://www.colorzilla.com/gradient-editor/
+      * http://www.cssmatic.com/gradient-generator
+      * http://www.css3factory.com/linear-gradients/
+      * http://westciv.com/tools/gradients/index.html
+      * http://css3generator.com/
+      * http://lea.verou.me/css3patterns/
+    * http://singlefunction.com/15-online-background-generators/
+  * Sprite CSS
+    * http://www.spritecow.com/
+    * http://spritepad.wearekiss.com/
+    * http://www.spritebox.net/
+    * http://csssprites.com/
+  * Web Font:
+    * http://www.google.com/fonts e https://developers.google.com/fonts/docs/getting_started
+    * https://typekit.com/fonts
+  * Layouts
+    * http://www.oswd.org/
+    * https://wrapbootstrap.com/
+    * http://startbootstrap.com/
+    * http://envatomarketplaces.com/
+    * http://themeforest.net/category/all
+    * http://html5up.net/
+    * http://templated.co/
+    * http://html5up.net/
+    * http://www.templatemonster.com/
+* Referências
+  * W3C - CSS: [1](http://www.w3.org/standards/techs/css#w3c_all) e [2](http://www.w3.org/standards/webdesign/htmlcss)
+  * [CSS WG](http://www.w3.org/Style/CSS/)
+  * [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1)](http://www.w3.org/TR/CSS2/cover.html)
+  * [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+  * [W3C wiki](http://www.w3.org/community/webed/wiki/CSS/Properties)
+  * [Stackoverflow](http://stackoverflow.com/questions/6187085/full-css-property-table)
+  * [W3Schools](http://www.w3schools.com/cssref/default.asp)
+  * Propriedades: [W3C](http://www.w3.org/TR/CSS2/propidx.html), [W3C](http://www.w3.org/TR/CSS/#indices) e [Web Platform](http://docs.webplatform.org/wiki/css/properties)
+  * Media Query: [W3C media](http://www.w3.org/TR/CSS2/media.html), [Web Platform](http://docs.webplatform.org/wiki/css/mediaqueries) e [W3C media query](http://www.w3.org/community/webed/wiki/CSS/Mediaqueries)
+  * Seletores: [CSS3](http://www.w3.org/TR/css3-selectors/), [CSS2.1](http://www.w3.org/TR/CSS2/selector.html), [W3C](http://www.w3.org/community/webed/wiki/CSS/Selectors) e [Web Platform](http://docs.webplatform.org/wiki/css/selectors)
+  * At-rule: [Web Platform](http://docs.webplatform.org/wiki/css/atrules)
+  * Função: [Web Platform](http://docs.webplatform.org/wiki/css/functions)
+* Cheat Sheet
+  * http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/
+  * http://www.1stwebdesigner.com/freebies/css-cheat-sheets-designers/
+  * http://dochub.io/#css/
+  * http://overapi.com/css/
+  * http://devdocs.io/css/
  
 ## JS
 
