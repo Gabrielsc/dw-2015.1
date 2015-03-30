@@ -100,6 +100,8 @@ A nota final será computado através da média aritmética das avaliações, re
       * http://www.grsites.com/archive/textures/
       * http://bgpatterns.com/
       * http://www.cgtextures.com/
+    * Fontes
+      * http://www.cssfontstack.com/
     * CSS3
       * http://www.colorzilla.com/gradient-editor/
       * http://www.cssmatic.com/gradient-generator
