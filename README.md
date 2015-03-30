@@ -102,6 +102,7 @@ A nota final será computado através da média aritmética das avaliações, re
       * http://www.cgtextures.com/
     * Fontes
       * http://www.cssfontstack.com/
+      * http://www.cssfontstack.com/Web-Fonts
     * CSS3
       * http://www.colorzilla.com/gradient-editor/
       * http://www.cssmatic.com/gradient-generator
@@ -128,6 +129,10 @@ A nota final será computado através da média aritmética das avaliações, re
     * http://templated.co/
     * http://html5up.net/
     * http://www.templatemonster.com/
+    * DashBoar Layout
+      * http://themifycloud.com/downloads/kadmin-free-responsive-admin-dashboard-template/
+      * http://startbootstrap.com/template-categories/admin-dashboard/
+      * http://themifycloud.com/downloads/janux-free-responsive-admin-dashboard-template/
 * Referências
   * W3C - CSS: [1](http://www.w3.org/standards/techs/css#w3c_all) e [2](http://www.w3.org/standards/webdesign/htmlcss)
   * [CSS WG](http://www.w3.org/Style/CSS/)
