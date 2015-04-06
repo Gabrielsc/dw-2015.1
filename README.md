@@ -155,6 +155,96 @@ A nota final será computado através da média aritmética das avaliações, re
  
 ## JS
 
+###ECMA-262
+
+* Conteúdo
+  * Tutoriais: 
+    * [Web Platform](http://docs.webplatform.org/wiki/javascript)
+    * [MDN JS Portal](https://developer.mozilla.org/en/docs/Web/JavaScript)
+    * [MDN JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+    * http://www.codecademy.com/tracks/javascript-combined
+    * https://www.codeschool.com/paths/javascript
+    * https://www.learnstreet.com/lessons/javascript/
+    * http://thecodeplayer.com/
+    * http://jstherightway.org/
+  * Objetos
+    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_Revisited
+    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+    * http://www.json.org/
+    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+* Livros
+  * http://jsbooks.revolunet.com/
+* Preprocessadores
+  * http://coffeescript.org/
+  * http://livescript.net/
+  * http://www.typescriptlang.org/
+* Web API
+  * http://api.vagalume.com.br/
+  * http://www.lastfm.com.br/api
+  * http://community.openspending.org/help/api/
+  * http://www.republicavirtual.com.br/cep/exemplos.php
+  * http://ipinfo.io/ (Geolocation)
+  * http://www.programmableweb.com/
+* Referências
+  * ECMA-262: [ECMA](http://www.ecma-international.org/ecma-262/5.1/), [Web Platform](http://docs.webplatform.org/wiki/javascript#Index_of_all_JavaScript_topics) e [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+  * [Browser Engine](http://en.wikipedia.org/wiki/Web_browser_engine)
+* Cheat Sheet
+  * http://overapi.com/javascript/
+  * http://devdocs.io/javascript/
+  * http://dochub.io/#javascript/
+  * http://www.addedbytes.com/cheat-sheets/javascript-cheat-sheet/
+
+###W3C
+
+* DOM
+  * http://docs.webplatform.org/wiki/dom
+  * https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference
+  * Evento
+    * https://developer.mozilla.org/en-US/docs/Web/Reference/Events
+    * https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers
+    * https://developer.mozilla.org/en-US/docs/Web/API/Event
+    * https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
+    * https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
+    * http://www.w3schools.com/jsref/dom_obj_event.asp
+* XMLHttpRequest & AJAX
+  * https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+  * Cenários: [1](http://www.programering.com/images/remote/ZnJvbT1jbmJsb2dzJnVybD13WnVCbkx4RVdaNEUyWWtCek4zRW1Oa2hqWmhCelkwUXpObVZXTnpNR1owWVdOaWRUTHhFek14QWpNekl6TDFBek14QWpNdlFETjFrRE0xOHladnhtWXYwMmJqNXladnhtWTBsbWJqNXljbGRXWXRsMkx2b0RjMFJIYQ.jpg) e [2](http://mikemcquaid.com/images/dizzy/ajaxinteraction.png)
+* Web API
+  * http://docs.webplatform.org/wiki/apis
+  * https://developer.mozilla.org/en-US/docs/Web/API
+  * https://developer.mozilla.org/en-US/docs/Web
+
+###Frameworks
+
+* http://www.jsdb.io/
+* API Javascript do Google Maps
+  * https://developers.google.com/maps/documentation/javascript/
+  * https://developers.google.com/maps/documentation/javascript/examples/
+* http://www.chartjs.org/
+* http://getbootstrap.com/2.3.2/index.html
+  
+####jQuery
+
+* CORE
+  * http://jquery.com/
+  * http://oscarotero.com/jquery/
+* Plugins
+  * http://plugins.jquery.com/
+  * Repository
+    * http://www.unheap.com/
+    * http://www.jque.re/
+    * http://bestofjquery.com/
+    * http://jquery-plugins.net/
+  * http://tutorialzine.com/2013/04/50-amazing-jquery-plugins/
+  * http://wijmo.com/
+  * http://tablesorter.com/docs/
+  * http://jqueryui.com/
+  * http://jquerymobile.com/
+  * http://parsleyjs.org/
+  * http://jqueryvalidation.org/
+  * http://formvalidator.net/index.html
+
 ## PHP
 
 ## MySQL
