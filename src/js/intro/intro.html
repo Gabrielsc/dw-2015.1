@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="operador1">
+	<input type="text" id="operador2">
+	<button onclick="calculadora('+')">+</button>
+	<button onclick="calculadora('-')">-</button>
+	<button onclick="calculadora('*')">*</button>
+	<button onclick="calculadora('/')">/</button>
+	<input type="text" id="resultado">
+	<script>
+	function calculadora(operador){
+		var valor1 = parseInt(document.querySelector('#operador1').value);
+		var valor2 = parseInt(document.querySelector('#operador2').value);
+		var resultado = 0;
+		if(operador == '+')
+		 resultado = valor1 + valor2
+		else if(operador == '-')
+		 resultado = valor1 - valor2
+		else if(operador == '*')
+		 resultado = valor1 * valor2
+		else if(operador == '/')
+		 resultado = valor1 / valor2
+
+		document.querySelector('#resultado').value = resultado;
+	}
+	</script>
+</body>
+</html>
