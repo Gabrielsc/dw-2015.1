@@ -1,0 +1,56 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+		<title>Titulo</title>
+		<style>		
+			/* a=0 b=1 c=0 d=0*/
+			#primeiro{
+				color:coral;
+			}
+			/* a=0 b=0 c=1 d=0*/
+			.par{
+				color:cyan;
+			}
+			/* a=0 b=0 c=0 d=1*/
+			p{
+				color:orange;
+			}	
+			/* a=0 b=0 c=0 d=2*/
+			p, h1 {
+				color:black;
+			}
+			/* a=0 b=0 c=0 d=2*/
+			h2~p{
+				color:brown;
+			}
+			/* a=0 b=0 c=1 d=1*/
+			p:first-of-type{
+				color:red;
+			}
+			/* a=0 b=0 c=0 d=2*/
+			h2+p{
+				color:blue;
+			}			
+			/* a=0 b=0 c=1 d=1*/
+			p:nth-child(3){
+				color:green;
+			}					
+			/* a=0 b=0 c=1 d=1*/	
+			p:only-of-type{
+				color:lime;
+			}				
+		</style>
+	<meta name="chromesniffer" id="chromesniffer_meta" content="{}"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script></head>
+	<body cz-shortcut-listen="true">		
+		<div>
+		<h1>Testes</h1>
+		<p>Nosso primerio exemplo de CSS</p>
+		</div>
+		<div>		
+		<h2>Teste 1</h2>
+		<p class="par" id="primeiro">Nosso primerio exemplo de CSS</p>
+		<p>Nosso primerio exemplo de CSS</p>
+		<p>Nosso primerio exemplo de CSS</p>
+		<p>Nosso primerio exemplo de CSS</p>
+		<p>Nosso primerio exemplo de CSS</p>
+		</div>
+	
+</body></html>
