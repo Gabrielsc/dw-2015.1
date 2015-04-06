@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="tamanho">
+	<input type="radio" name="opcao" id="" value="asc" checked> Crescente
+	<input type="radio" name="opcao" id="" value="desc"> Decrescente
+	<button onclick="processa()">Gerar itens</button>
+	<ul id="lista"></ul>
+	<script>
+	function processa(){
+		var tamanho = document.querySelector("#tamanho").value
+		var ordenacao = document.querySelector('input[name=opcao]:checked').value;
+		var resultado = "";
+		if(ordenacao == "asc"){
+			for(var flag = 1; flag <= tamanho; flag++)
+				resultado += "<li>Item "+flag+"</li>";
+		}else if(ordenacao == "desc"){
+			for(var flag = tamanho; flag >= 1; flag--)
+				resultado += "<li>Item "+flag+"</li>";
+		}
+		document.querySelector("#lista").innerHTML = resultado;
+	}
+	</script>
+</body>
+</html>
