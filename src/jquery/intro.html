@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="ip">
+	<button id="action">obter Info</button>
+	<!-- https://freegeoip.net/ -->
+	<table id="info"></table>
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script>
+		$('#action').click(function(){
+			var ip = $("#ip").val();
+			var url = "https://freegeoip.net/json/"+ip;
+			$.getJSON(url, function(json){
+				$("#info").append("<tr><td>País</td><td>"+json.country_name+"</td></tr>");
+			});
+		});
+	</script>
+</body>
+</html>

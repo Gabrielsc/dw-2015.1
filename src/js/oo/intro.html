@@ -6,6 +6,7 @@
 </head>
 <body>
 	<script>
+		// https://developer.mozilla.org/en-US/docs/Web
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 		// Acesso através da Classe
@@ -15,6 +16,41 @@
 		// Acesso através da Instância
 		var name = "Luiz Carlos";
 		console.log(name.split(" ")); 
+
+		var ar = [1,2,'a'];
+		var ar = new Array(1,2,'a');
+		var ar = new Array(10);
+		ar[0] = 1;
+		ar[1] = 10;
+		ar['a'] = 10;
+		console.log(ar.join(","))
+		for(var index in ar)
+			console.log(ar[index]);
+
+		// DOM
+		// https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+		// https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+		// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
+		document.body.style.backgroundColor = '#ccc';
+		// https://developer.mozilla.org/en-US/docs/Web/API/Window
+		window.history.back();
+		window.location.href = "http://www.google.com/"
+		window.document.querySelector("");
+		window.alert("Seja bem vindo!");
+
+		// Custom
+		function Host(hostname, ip){
+			this.hostname = hostname;
+			this.ip = ip;
+			this.to_s = function(){
+				return this.hostname+" "+this.ip;
+			}
+		}
+		var h1 = new Host("localhost", "127.0.0.1");
+
+		// JSON
+		var h2 = {hostname:"localhost",ip:"127.0.0.1"}
+
 
 	</script>
 </body>

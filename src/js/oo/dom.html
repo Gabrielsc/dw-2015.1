@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="tamanho">
+	<select id="opcao">
+		<option value="asc">Crescente</option>
+		<option value="desc">Decrescente</option>	
+	</select>
+	<button>Gerar itens</button>
+	<ul id="lista"></ul>
+	<script>
+
+	document.querySelector('button').addEventListener("click", processa);	
+	function processa(){
+		var tamanho = document.querySelector("#tamanho").value;
+		var select = document.querySelector("#opcao");
+		var ordenacao = select.options[select.selectedIndex].value;
+		var resultado = "";
+		if(ordenacao == "asc"){
+			for(var flag = 1; flag <= tamanho; flag++)
+				resultado += "<li>Item "+flag+"</li>";
+		}else if(ordenacao == "desc"){
+			for(var flag = tamanho; flag >= 1; flag--)
+				resultado += "<li>Item "+flag+"</li>";
+		}
+		document.querySelector("#lista").innerHTML = resultado;
+	}
+	</script>
+</body>
+</html>
