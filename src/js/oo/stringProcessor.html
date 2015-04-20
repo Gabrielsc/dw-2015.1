@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="source">
+	<button onclick="process('uppercase')">Uppercase</button>
+	<button onclick="process('downcase')">Downcase</button>
+	<button onclick="process('camelcase')">Camelcase</button>
+	<button onclick="process('reverse')">Reverse</button>
+	<input type="text" id="target">
+	<script>
+		function process(kind){
+			source = document.querySelector('#source').value;
+			target = '';
+			switch(kind){
+				case 'uppercase':
+					target = source.toUpperCase();
+					break;
+				case 'downcase':
+					target = source.toLowerCase();
+					break;
+				case 'camelcase':
+					// target = ;
+					// break;
+				case 'reverse':
+					// target = ;
+					// break;
+			}
+			document.querySelector('#target').value = target;
+		}
+	</script>
+</body>
+</html>
