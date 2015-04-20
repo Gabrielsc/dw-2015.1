@@ -7,8 +7,9 @@ O objetivo do projeto consiste em desenvolver um site web de **gerenciamento e m
 O site deve conter obrigatoriamente:
 	
 * Especificação do Projeto: deve contar o nome do projeto, com os integrantes e uma listagem de funcionalidades da aplicação (30/03);
-* HTML: lista, tabela e formulário; 
-* CSS:;
+* HTML: listas, tabela e formulário; 
+* CSS: layout sem tabela e elementos do HTML estilizado;
+* ETAPA I: Esta etapa consiste na entrega da interface do projeto, no qual consiste na criação de todo HTML e CSS da aplicação Web especificado em seu projeto (04/05);
 * JS:;
 * PHP:;
 * MySQL:;
