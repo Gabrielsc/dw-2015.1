@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="ip">
+	<button>Obter Domínio</button>
+	<input type="text" id="domain">
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script>
+		// https://www.mashape.com/jack/dns-tools
+		$.ajaxSetup({
+		  headers : {   
+		    'X-Mashape-Key' : 'og1yBUTFFZmshoJQRzXTCu6juq0Pp1MSCiojsnRZNJ6mYEzz23'
+		  }
+		});
+		$.getJSON('https://jack-dns-tools.p.mashape.com/dnstools.php?_method=IP2DNS&ip=66.102.13.105',function(json){
+			console.log(json);
+		});
+	</script>
+</body>
+</html>
