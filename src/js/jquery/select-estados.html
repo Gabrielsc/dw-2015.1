@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<select id="states"></select>
+	<select id="cities"></select>
+	<script>
+		var cidades = new Array();
+		cidades["Paraíba"] = "João Pessoa, Campina Grande, Cabedelo";
+		cidades["Pernambuco"] = "Recife, Abeu e Lima, Caruaru";
+		insertStates();
+		insertCities();
+
+		function insertStates(){
+			for(var state in cidades){
+				document.querySelector("#states").innerHTML += "<option>"+state+"</option>";
+			}
+		}
+
+		function insertCities(){
+			document.querySelector("#cities").innerHTML = ""; 
+			var selectedState = document.querySelector("#states").value;
+			var cities = cidades[selectedState].split(", ");
+			for(var index in cities){
+				document.querySelector("#cities").innerHTML += "<option>"+cities[index]+"</option>";
+			}
+		}
+
+		document.querySelector('#states').addEventListener("change", insertCities);
+
+	</script>
+</body>
+</html>
