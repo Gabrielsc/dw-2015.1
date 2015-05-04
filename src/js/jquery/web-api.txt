@@ -1,0 +1,34 @@
+Outros Exemplos de Web API
+
+Explore - Mashape - Free API Management Platform & Marketplace
+https://www.mashape.com/explore?sort=developers&tags=Tools&page=13
+
+IPInfo.io API Documentation
+https://www.mashape.com/coderholic/ipinfo-io
+
+IPHub API Documentation
+https://www.mashape.com/spenzert/iphub
+
+IP2Location Web Service API Documentation
+https://www.mashape.com/ip2location/ip2location-web-service
+
+IP Blocklist API Documentation
+https://www.mashape.com/neutrinoapi/ip-blocklist
+
+Domain Availability Checker API Documentation
+https://www.mashape.com/nviror/domain-availability-checker
+
+Whois Lookup API Documentation
+https://www.mashape.com/mutationevent/whois-lookup
+
+TextAnalysis API Documentation
+https://www.mashape.com/textanalysis/textanalysis
+
+Password Tools API Documentation
+https://www.mashape.com/pozzad/password-tools
+
+Passwd.me - random password generation API Documentation
+https://www.mashape.com/fzoccara/passwd-me-random-password-generation
+
+httpbin-test API Documentation
+https://www.mashape.com/austin/httpbin-test
