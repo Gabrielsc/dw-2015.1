@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<label for="domain">Domínio</label>
+	<input type="text" name="domain" id="domain">
+	<button>Enviar</button>
+	<table>
+		<tr>
+			<td>IP</td>
+			<td id="ip"></td>
+		</tr>
+		<tr>
+			<td>Pacotes Transmitidos</td>
+			<td id="packetsTransmitted"></td>
+		</tr>
+		<tr>
+			<td>Pacotes Recebidos</td>
+			<td id="packetsReceived"></td>
+		</tr>
+	</table>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$("table").hide();
+		$("button").click(function(){
+			var url = "processPing.php?domain="+$("#domain").val();
+			$.getJSON(url, function(ping){
+				$("#ip").html(ping.ip);
+				$("#packetsTransmitted").html(ping.statistics.packetsTransmitted);
+				$("#packetsReceived").html(ping.statistics.packetsReceived);
+				$("table").show();
+			});	
+		});
+	</script>	
+</body>
+</html>

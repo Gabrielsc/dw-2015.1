@@ -1,7 +1,6 @@
-<pre>
 <?php
 
-class PingClass{
+class Ping{
 
 	private $domain;
 	private $count = 4; 
@@ -57,18 +56,18 @@ class PingClass{
 		}
 
 		//statistics
-		$resultJson["statistis"] = [];
+		$resultJson["statistics"] = [];
 		preg_match("/(\d+)ms/", $resultString, $time);
-		$resultJson["statistis"]["time"] = $time[1];
+		$resultJson["statistics"]["time"] = $time[1];
 		preg_match("/(\d+) packets transmitted/", $resultString, $packetsTransmitted);
-		$resultJson["statistis"]["packets_transmitted"] = $packetsTransmitted[1];
+		$resultJson["statistics"]["packetsTransmitted"] = $packetsTransmitted[1];
 		preg_match("/(\d+) received/", $resultString, $packetsReceived);
-		$resultJson["statistis"]["packets_received"] = $packetsReceived[1];
+		$resultJson["statistics"]["packetsReceived"] = $packetsReceived[1];
 		preg_match("/([\d\.]+)\/([\d\.]+)\/([\d\.]+)\/([\d\.]+) ms/", $resultString, $rtt);
-		$resultJson["statistis"]["rtt_min"] = $rtt[1];
-		$resultJson["statistis"]["rtt_avg"] = $rtt[2];
-		$resultJson["statistis"]["rtt_max"] = $rtt[3];
-		$resultJson["statistis"]["rtt_mdev"] = $rtt[4];
+		$resultJson["statistics"]["rtt_min"] = $rtt[1];
+		$resultJson["statistics"]["rtt_avg"] = $rtt[2];
+		$resultJson["statistics"]["rtt_max"] = $rtt[3];
+		$resultJson["statistics"]["rtt_mdev"] = $rtt[4];
 
 		return json_encode($resultJson);
 	}
@@ -83,12 +82,3 @@ class PingClass{
 	}
 
 }
-
-$ping = new PingClass();
-// $ping->loadData("8.8.8.8");
-$ping->loadDataByArray(["domain"=>"8.8.8.8", "count"=>5, "interval"=>1]);
-$ping->loadDataByArray(["domain"=>"www.ifpb.edu.br", "count"=>5, "interval"=>1]);
-// echo $ping->toString();
-echo $ping->request();
-?>
-</pre>
