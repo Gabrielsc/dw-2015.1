@@ -1,4 +1,4 @@
-<?
+<?php
 	require "Ping.php";
 
 	$ping = new Ping();
